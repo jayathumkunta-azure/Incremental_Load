@@ -50,6 +50,7 @@ create table watermarktable
 tablename varchar(255),
 watermarkvalue datetime
 )
+
 insert into watermarktable(tablename,watermarkvalue)
 values('StateProvince_Source','1990-02-08 10:17:21.587')
 
